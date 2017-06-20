@@ -4,7 +4,8 @@ $(document).ready(function(){
 		// What do we want to do? Get data!
 		type: 'GET',
 		// Data from this url (JSON data from an API):
-		url:'https://newsapi.org/v1/articles?source=the-wall-street-journal&sortBy=top&apiKey='+API_KEY,		// use .done and .fail
+		url:'https://newsapi.org/v1/articles?source=the-wall-street-journal&sortBy=top&apiKey='
+		  + API_KEY,		
 	})	// no semicolon
 	// deferred promise:
 		.done(function(data){
